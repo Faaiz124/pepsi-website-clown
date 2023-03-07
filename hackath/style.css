@@ -3,6 +3,58 @@ body {
     font-family: 'Sofia Pro Black', Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
+
+/* ksdfjikdjiuiedfhj */
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(255 255 255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-toggler {
+    border: 1px solid rgb(0 101 195);
+}
+
+.container {
+    font-size: 0.9em !important;
+    font-weight: 800;
+}
+
+.header {
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(0 101 195), rgb(0 101 195))
+}
+
+.navbar-brand {
+    display: flex;
+    margin-left: -5%;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: #fff !important;
+}
+
+.margen-left {
+    margin-left: 30px;
+}
+
+.navbar-nav {
+    margin: 0;
+    padding: 0;
+    margin-right: auto;
+}
+
+.navbar-items {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+/* kfnejsfheiofjesj */
+
 .navbar {
     width: 100%;
     background-image: linear-gradient(to right, #0065c3);
@@ -627,4 +679,17 @@ span {
 .item img {
     margin-left: -40%;
     margin-right: 0px;
+}
+
+@media only screen and (min-width: 990px) {
+    .navbar-items {
+        display: flex;
+        display: none !important;
+        font-size: larger;
+        font-weight: 800;
+    }
+    element.style {
+        padding-left: 0px !important;
+        margin-top: 0px !important;
+    }
 }
