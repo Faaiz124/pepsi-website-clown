@@ -1,5 +1,4 @@
 body {
-    margin: 0;
     font-family: 'Sofia Pro Black', Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
@@ -84,7 +83,6 @@ body {
     margin: 0 auto;
     padding: 0 auto;
     text-align: center;
-    background-color: red;
     max-width: 1400px;
     height: 100vh;
 }
@@ -94,19 +92,15 @@ body {
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-content: center;
     text-transform: uppercase;
     background-color: #0065c3;
-    max-width: 88rem !important;
-    margin-top: -3px !important;
-    margin-bottom: -2px !important;
     padding: 30px;
     color: white;
-    height: 100px;
     font-weight: 600;
-    margin-top: 15PX;
-    margin-bottom: 3PX;
+    /* margin-top: 15PX;
+    margin-bottom: 3PX; */
 }
 
 .navbar-left {
@@ -691,5 +685,11 @@ span {
     element.style {
         padding-left: 0px !important;
         margin-top: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .hide-drop {
+        display: none !important;
     }
 }
